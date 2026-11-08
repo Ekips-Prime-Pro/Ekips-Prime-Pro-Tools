@@ -10,4 +10,11 @@ prüfst.
 | `ekips-lsp` | Language Server: zeigt Fehler schon beim Tippen, erklärt Wörter und schlägt Code im Editor vor |
 | Simulator | Fährt einen virtuellen Roboter auf einer FLL-Matte (geplant) |
 
+Mehr:
+
+- [Installation und Releases](install.md)
+- [Kommandozeilenprogramm `ekips`](cli.md)
+- [Language Server `ekips-lsp`](lsp.md)
+- [Simulator-Entwurf](simulator.md)
+
 *English version: [../en/README.md](../en/README.md)*
