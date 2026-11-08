@@ -1,0 +1,6 @@
+// Contains a typo on the first line.
+cosnt arm = new Motor(Port.C);
+
+async function main() {
+  await arm.rotate(90deg);
+}

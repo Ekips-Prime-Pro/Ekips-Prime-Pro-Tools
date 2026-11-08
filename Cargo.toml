@@ -1,0 +1,31 @@
+[workspace]
+resolver = "3"
+members = ["crates/i18n", "crates/cli", "crates/lsp", "crates/sim"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+license = "MIT"
+authors = ["David Frings <dev@davidfrings.dev>"]
+repository = "https://github.com/Ekips-Prime-Pro/Ekips-Prime-Pro-Tools"
+
+[workspace.dependencies]
+# Pinned to a commit until the Core repository publishes tags.
+# Later: `tag = "v0.2.0"` instead of `rev = …`.
+ekips-compiler = { git = "https://github.com/Ekips-Prime-Pro/ekips-prime-pro-core", rev = "81a4bd574b93502b0347d641d12bb7e7b2519890" }
+ekips-hub-api = { git = "https://github.com/Ekips-Prime-Pro/ekips-prime-pro-core", rev = "81a4bd574b93502b0347d641d12bb7e7b2519890" }
+
+ekips-i18n = { path = "crates/i18n" }
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+missing_docs = "warn"
+
+[workspace.lints.clippy]
+all = { level = "warn", priority = -1 }
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
