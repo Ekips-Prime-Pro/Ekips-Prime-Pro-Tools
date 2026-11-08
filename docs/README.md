@@ -12,6 +12,7 @@ und Deutsch.
 | Overview / Überblick | [en/README.md](en/README.md) | [de/README.md](de/README.md) |
 | Command-line tool `ekips` / Kommandozeilenprogramm `ekips` | [en/cli.md](en/cli.md) | [de/cli.md](de/cli.md) |
 | Language server `ekips-lsp` / Language Server `ekips-lsp` | [en/lsp.md](en/lsp.md) | [de/lsp.md](de/lsp.md) |
+| Simulator design / Simulator-Entwurf | [en/simulator.md](en/simulator.md) | [de/simulator.md](de/simulator.md) |
 
 The language itself is described in the
 [Core repository](https://github.com/Ekips-Prime-Pro/ekips-prime-pro-core/blob/main/docs/language.md).
