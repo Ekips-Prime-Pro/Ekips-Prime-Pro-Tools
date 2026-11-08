@@ -151,6 +151,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "ekips-sim"
+version = "0.1.0"
+dependencies = [
+ "ekips-hub-api",
+]
+
+[[package]]
 name = "fluent-uri"
 version = "0.1.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
