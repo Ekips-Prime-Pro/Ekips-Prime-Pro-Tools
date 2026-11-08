@@ -10,6 +10,7 @@ und Deutsch.
 | Topic / Thema | English | Deutsch |
 |---|---|---|
 | Overview / Überblick | [en/README.md](en/README.md) | [de/README.md](de/README.md) |
+| Command-line tool `ekips` / Kommandozeilenprogramm `ekips` | [en/cli.md](en/cli.md) | [de/cli.md](de/cli.md) |
 
 The language itself is described in the
 [Core repository](https://github.com/Ekips-Prime-Pro/ekips-prime-pro-core/blob/main/docs/language.md).
