@@ -1,0 +1,17 @@
+[package]
+name = "ekips-i18n"
+description = "Language selection (English/German) shared by the Ekips Prime Pro tools"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+publish = false
+
+[dependencies]
+ekips-compiler.workspace = true
+sys-locale = "0.3"
+
+[lints]
+workspace = true
